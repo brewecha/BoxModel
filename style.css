@@ -80,7 +80,7 @@ div{
 
 .row1{
     width: 25%;
-    border: 2px solid black;
+    border: 10px inset lightskyblue;
     padding:5px;
     margin-left: 20px;
     margin-right: 20px
@@ -88,7 +88,7 @@ div{
 
 .row2{
     width: 30%;
-    border: 2px solid black;
+    border: 2px inset lightblue;
     margin-top:20px;
 }
 
