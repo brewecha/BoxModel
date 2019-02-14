@@ -6,10 +6,12 @@
     </head>
     <body>
         <h1>Box Model</h1>
-        <p>The div on the left shows no padding, the div on the right shows a 2px padding.</p>
+        <p>The div on the left shows no padding, the div on the right shows a 2px 
+            padding.</p>
         <div id="noPadding">Some text.</div>
         <div id="padding">Some text.</div>
-        <p>You can specify which side (top, right, bottom, left) and the size of the padding.</p>
+        <p>You can specify which side (top, right, bottom, left) and the size of 
+            the padding.</p>
         <div id="topPadding">Top Padding</div>
         <div id="rightPadding">Right Padding</div>
         <div id="bottomPadding">Bottom Padding</div>
@@ -51,6 +53,39 @@
         <div id='center'>Some text</div>
         <div id='perLeftMargin'>Some Text</div>
         <div id='perRightMargin'>Some Text</div>
+
+        <h2>Putting it all together!!!</h2>
+
+        <p>Classes are used for mutiple elements with same styles. We can apply 
+            multipe classes to each element. We CANNOT apply multiple IDS, which 
+            is why classes are preferred to ids
+        </p>
+
+        <div class='defaultPadding defaultBorder'>Some Text</div>
+        <div class='defaultPadding defaultMargin'>Some Text</div>
+        <div class='defaultPadding defaultBorder'>Some Text</div>
+        <br>
+        <div class='defaultPadding'>Some Text</div>
+        <div class='defaultPadding defaultBorder defaultMargin'>Some Text</div>
+        <div class='defaultPadding'>Some Text</div>
+
+        <p>We can also use CSS to target spacific elements that are contained 
+            inside other elements.</p>
+
+        <section class='defaultBorder'>
+            <h3>Some Text Header</h3>
+            <header>
+                <h3 class='defaultBorder'>Some Text Smaller Header</h3>
+            </header>
+            <article>
+                <p>A Paragraph inside an Article</p>
+            </article>
+            <p> Another Paragraph</p>
+        </section>
+
+        <br>
+        <br>
+        <br>
 
     </body>
 </httml>

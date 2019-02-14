@@ -111,3 +111,38 @@ div{
     height:200px;
     width:35%;
 }
+
+.defaultPadding{
+
+    padding: 10px;
+}
+
+.defaultMargin{
+
+    margin: 0px 30px;
+}
+
+.defaultBorder{
+
+    border: 3px ridge fuchsia;
+}
+
+/*SELECT ELEMNTS INSIDE OTHER ELEMENTS*/
+
+/*section h3{
+    font-size: 42px;
+}
+
+section header h3{
+    font-size: 30px;
+}
+
+section article p{
+    color:lightblue;
+}*/
+
+/*SELECT MUTIPLE ELEMENTS*/
+
+section h3, section p{
+    color: blue;
+}
